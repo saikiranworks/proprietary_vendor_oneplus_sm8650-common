@@ -9853,8 +9853,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libc",
-                "libc++_shared",
-                "libstdc++",
                 "libdl",
                 "liblog",
                 "libm",
