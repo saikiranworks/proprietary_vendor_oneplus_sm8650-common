@@ -15,6 +15,26 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-touch-V2-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V11-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V11-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MOVIE_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_ANALOG.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MOVIE_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_BLUETOOTH.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MOVIE_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_DIGITAL.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MOVIE_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_GALILEO.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MUSIC_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_ANALOG.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MUSIC_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_BLUETOOTH.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MUSIC_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_DIGITAL.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MUSIC_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_GALILEO.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl1.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl10.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl10.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl2.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl3.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl4.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl5.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl6.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl6.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl7.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl7.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl8.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl8.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl9.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl9.bin \
     vendor/oneplus/sm8650-common/proprietary/product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/com.android.hotwordenrollment.common.util.xml \
     vendor/oneplus/sm8650-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/horae/horae.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/horae/horae.conf \
@@ -139,7 +159,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.hardware.servicetrackeraidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.servicetrackeraidl-service.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.pasrknob@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.pasrknob@1.0-service.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.psiclient@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.psiclient@1.0-service.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.qspmhal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal-service.rc \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/init/vendor.qti.smp2p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.smp2p.rc \
@@ -167,6 +186,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_cliffs_v1/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_cliffs_v1/video_system_specs.json \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_codecs_cliffs_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_cliffs_v0.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_codecs_cliffs_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_cliffs_v1.xml \
+    vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_vision.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_codecs_performance_cliffs_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_cliffs_v0.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_codecs_performance_cliffs_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_cliffs_v1.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_codecs_performance_pineapple.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_pineapple.xml \
@@ -341,7 +361,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/smomo_setting.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smomo_setting.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/vmmgr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/vmmgr.conf \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/oneplus/sm8650-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
@@ -356,6 +375,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
+    vendor.qti.hardware.perf2-V1-ndk.system \
     btaudio_offload_if \
     eglSubDriverAndroid \
     libEGL_adreno \
@@ -504,6 +524,7 @@ PRODUCT_PACKAGES += \
     libnsptransaction \
     liboffscreenpoweroptfeature \
     libolc_vnd_vendor \
+    liboplus_spat_audiox \
     libops \
     libos \
     libosensenativeproxy_client_vendor \
@@ -617,7 +638,6 @@ PRODUCT_PACKAGES += \
     libspcom \
     libspl \
     libsplh \
-    libsrc_jni_getPasrService \
     libssc_default_listener \
     libssd \
     libstandbyfeature \
@@ -694,7 +714,7 @@ PRODUCT_PACKAGES += \
     libvpp_vqa_networks \
     libworker_pool \
     libasphere \
-    libquasar \
+    liboplus_spatializer \
     libshoebox \
     vendor.qti.diaghal@1.0_vendor \
     vendor.qti.esepowermanager@1.0 \
@@ -733,7 +753,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.memory.pasrmanager-V1-ndk \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
-    vendor.qti.power.pasrmanager@1.0 \
     vendor.qti.qccvndhal_aidl-V1-ndk_vendor \
     vendor.qti.qccvndhal_aidl-halimpl \
     vendor.qti.qegahal-V1-ndk_platform \
@@ -776,6 +795,10 @@ PRODUCT_PACKAGES += \
     libqcc_file_agent_sys \
     libqccdme \
     libqccfileservice \
+    libqti-at \
+    libqti-iopd-client_system \
+    libqti-perfd-client_system \
+    libqti_performance \
     libwfdavenhancements \
     libwfdclient \
     libwfdcommonutils \
@@ -794,13 +817,18 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc \
     libwfduibcsrcinterface \
     vendor.qti.diaghal@1.0 \
+    vendor.qti.hardware.iop@2.0.system \
+    vendor.qti.hardware.perf@2.0 \
+    vendor.qti.hardware.perf@2.1 \
+    vendor.qti.hardware.perf@2.2 \
+    vendor.qti.hardware.perf@2.3 \
     vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.qccsyshal@1.1 \
     vendor.qti.hardware.qccsyshal@1.2-halimpl \
     vendor.qti.hardware.qccsyshal@1.2 \
     vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
-    vendor.qti.hardware.wifidisplaysession_aidl-V2-ndk \
+    vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
     vendor.qti.qccsyshal_aidl-V1-ndk \
     vendor.qti.qccsyshal_aidl-halimpl \
     vendor.qti.qccvndhal_aidl-V1-ndk \
@@ -821,6 +849,9 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
     QCC \
     WfdService \
+    QPerformance \
+    QXPerformance \
+    UxPerformance \
     WfdCommon \
     com.android.hotwordenrollment.common.util \
     android.hardware.drm-service.xml \
@@ -863,7 +894,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper-service-qti \
     android.hardware.identity-service-qti \
     android.hardware.security.keymint-service-qti \
-    pasrknob \
     qconfigservice \
     sxrservice \
     vendor.qti.hardware.alarm-service \
