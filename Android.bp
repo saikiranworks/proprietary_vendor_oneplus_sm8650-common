@@ -9853,6 +9853,8 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "libc",
+                "//vendor/oneplus/caihong:libc++_shared",
+                "libstdc++_vendor",
                 "libdl",
                 "liblog",
                 "libm",
