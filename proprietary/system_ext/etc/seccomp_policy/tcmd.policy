@@ -20,6 +20,7 @@
 # limitations under the License.
 
 getuid: 1
+lseek: 1
 writev: 1
 sendto: 1
 mmap: arg2 in ~PROT_EXEC || arg2 in ~PROT_WRITE
@@ -71,4 +72,3 @@ gettid: 1
 rt_tgsigqueueinfo: 1
 nanosleep: 1
 madvise: 1
-lseek: 1

@@ -71,8 +71,16 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <AppLayer  name="autotest.oppo.com.simulatedlivebroadcast/autotest.oppo.com.simulatedlivebroadcast.activity.Texture2Activity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
-      <LayerApp name="Meitu">
-        <AppLayer  name="SurfaceView[com.mt.mtxx.mtxx/com.meitu.app.meitucamera.ActivityCamera](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      <LayerApp name="Meituxiuxiu">
+        <AppLayer  name="SurfaceView[com.mt.mtxx.mtxx/com.mt.mtxx.camera.view.CameraActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="xiaohongshu">
+        <AppLayer  name="SurfaceView[com.xingin.xhs/com.xingin.capa.lib.entrance.CapaEntranceActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="bilibili">
+          <AppLayer  name="SurfaceView[tv.danmaku.bili/com.bilibili.studio.centerplus.ui.CenterPlusMainActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
       <LayerApp name="Meitu1">
@@ -81,6 +89,26 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
       <LayerApp name="Meitu2">
         <AppLayer  name="SurfaceView[com.meitu.meiyancamera/com.meitu.myxj.selfie.merge.activity.SelfieCameraActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="Meitu3">
+        <AppLayer  name="SurfaceView[com.mt.mtxx.mtxx/com.mt.mtxx.camera.view.CameraActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="Meitu4">
+        <AppLayer  name="SurfaceView[com.mt.mtxx.mtxx/com.mt.mtxx.camera.applecamera.view.AppleCameraActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="duoshan">
+          <AppLayer  name="SurfaceView[my.maya.android/com.ss.android.ugc.aweme.MainActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="FIMO">
+          <AppLayer  name="SurfaceView[com.fimo.camera/com.fimo.camera.camera.ui.CameraActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="B612kaji">
+          <AppLayer  name="SurfaceView[com.campmobile.snowcamera/com.linecorp.b612.android.activity.ActivityCamera](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
       <LayerApp name="Kwai">
@@ -99,10 +127,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <AppLayer  name="SurfaceView[com.tencent.mm/com.tencent.mm.plugin.scanner.ui.BaseScanUI](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
-      <LayerApp name="meituan">
-        <AppLayer  name="SurfaceView[com.sankuai.meituan/com.meituan.android.mrn.container.MRNBaseActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
-      </LayerApp>
-
       <LayerApp name="QQ">
         <AppLayer  name="SurfaceView[com.tencent.mobileqq/dov.com.qq.im.QIMCameraCaptureActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
@@ -119,8 +143,20 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <AppLayer  name="SurfaceView[com.tencent.mobileqq/com.tencent.mobileqq.olympic.activity.ScanTorchActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
+      <LayerApp name="QQ">
+          <AppLayer  name="SurfaceView[com.tencent.mobileqq/com.tencent.av.ui.AVActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="QQ">
+          <AppLayer  name="SurfaceView[com.tencent.mobileqq/com.tencent.aelight.camera.aioeditor.takevideo.EditVideoActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
       <LayerApp name="QQDongTai">
         <AppLayer  name="SurfaceView[com.tencent.mobileqq/com.tencent.aelight.camera.ae.flashshow.WinkHomeActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="QQxuanWu">
+        <AppLayer  name="SurfaceView[com.tencent.tmgp.qqx5/com.tencent.tmgp.qqx5.DGMMainActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
       <LayerApp name="Gorgeous">
@@ -131,23 +167,31 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <AppLayer  name="SurfaceView[com.gorgeous.lite/com.light.beauty.mainpage.MainActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
-      <LayerApp name="Gorgeous">
-        <AppLayer  name="SurfaceView[com.gorgeous.lite/com.light.beauty.publisher.PublisherActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      <LayerApp name="Gorgeous3">
+        <AppLayer  name="SurfaceView[com.gorgeous.lite/com.light.beauty.publisher.PublisherCameraActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
       <LayerApp name="Wuta">
         <AppLayer  name="SurfaceView[com.benqu.wuta/com.benqu.wuta.activities.preview.PreviewActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
+      <LayerApp name="timestampcamerafree">
+        <AppLayer  name="SurfaceView[com.jeyluta.timestampcamerafree/com.android.grafika.CameraCaptureActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
       <LayerApp name="Shuiyin">
         <AppLayer  name="SurfaceView[com.tencent.zebra/com.android.camera.CameraActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
-      <LayerApp name="Weishi">
+      <LayerApp name="Weishi1">
         <AppLayer  name="SurfaceView[com.tencent.weishi/com.tencent.weishi.module.camera.ui.activity.CameraActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
-      <LayerApp name="Weishi">
+      <LayerApp name="Weishi2">
+        <AppLayer  name="SurfaceView[com.tencent.weishi/com.tencent.weishi.module.multi.PublisherMultiPageActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="Weishi3">
         <AppLayer  name="SurfaceView[com.tencent.weishi/com.tencent.ilive.pages.room.AnchorRoomActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
@@ -175,8 +219,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <AppLayer  name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.closefriends.CloseFriendsActivity" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
-      <LayerApp name="DouYinLiteShiKe">
-        <AppLayer  name="com.ss.android.ugc.aweme.lite/com.ss.android.ugc.aweme.detail.ui.DetailActivity" type="camera" strategy="mode" mode="2" enable="true"/>
+      <LayerApp name="DouYinShiKe2">
+        <AppLayer  name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.closefriends.moment3.container.MomentActivity" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
       <LayerApp name="DouYinHuoShan">
@@ -191,7 +235,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <AppLayer  name="SurfaceView[com.ss.android.ugc.trill/com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordNewActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
-      <LayerApp name="TikTok">
+      <LayerApp name="TikTok2">
+        <AppLayer  name="SurfaceView[com.ss.android.ugc.trill/com.ss.android.ugc.aweme.adaptation.saa.SAAActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="TikTok3">
         <AppLayer  name="SurfaceView[com.zhiliaoapp.musically/com.ss.android.ugc.aweme.adaptation.saa.SAAActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
@@ -283,6 +331,26 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <AppLayer  name="com.sina.weibo/com.sina.weibo.story.publisher.activity.StoryCameraIndependentActivity" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
+      <LayerApp name="huoxingzhibo">
+        <AppLayer  name="SurfaceView[com.xiaochang.easylive/com.xiaochang.easylive.live.publisher.activity.LivePublishActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="tuxishenghuo">
+        <AppLayer  name="SurfaceView[com.zto.families.ztofamilies/com.zto.families.ztofamilies.business.outbound.view.OutboundActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="meituan">
+        <AppLayer  name="SurfaceView[com.sankuai.meituan.dispatch.crowdsource/com.meituan.banma.account.activity.AuthenticationCameraActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="kuake">
+        <AppLayer  name="SurfaceView[com.quark.browser/com.ucpro.BrowserActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="linlizhanggui">
+        <AppLayer  name="SurfaceView[com.best.android.laiqu/com.best.android.laiqu.ui.outbound.OutBoundNewActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
       <LayerApp name="dingding">
         <AppLayer  name="SurfaceView[com.alibaba.android.rimet/com.taobao.taopai.business.record.fragment.SocialRecordVideoActivity_Module](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
@@ -293,6 +361,22 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
       <LayerApp name="taobao2">
         <AppLayer  name="SurfaceView[com.taobao.taobao/com.etao.feimagesearch.capture.CaptureActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="taobao3">
+        <AppLayer  name="SurfaceView[com.taobao.taobao/com.taobao.android.litecreator.modules.record.LCRecordActivityDirect](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="quark">
+        <AppLayer  name="SurfaceView[com.quark.browser/com.ucpro.BrowserActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="Youtube">
+        <AppLayer  name="SurfaceView[com.google.android.youtube/com.google.android.apps.youtube.app.extensions.creationmodes.main.CreationModesActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="classin">
+        <AppLayer  name="SurfaceView[cn.eeo.classin/cn.eeo.account.QrScannerActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
       <LayerApp name="Gifmaker">
@@ -371,16 +455,16 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <AppLayer  name="SurfaceView[com.instagram.android/com.instagram.mainactivity.InstagramMainActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
+      <LayerApp name="instagram2">
+        <AppLayer  name="SurfaceView[com.instagram.android/com.instagram.modal.TransparentModalActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
       <LayerApp name="facebook">
         <AppLayer  name="SurfaceView[com.facebook.katana/com.facebook.inspiration.composer.activity.InspirationComposerActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
-      <LayerApp name="messenger">
-        <AppLayer  name="SurfaceView[com.facebook.orca/com.facebook.messaging.montage.composer.MontageComposerActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
-      </LayerApp>
-
-      <LayerApp name="Zalo">
-        <AppLayer  name="SurfaceView[com.zing.zalo/com.zing.zalo.ui.ZaloLauncherActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      <LayerApp name="facebook1">
+        <AppLayer  name="SurfaceView[com.facebook.katana/com.facebook.inspiration.activity.InspirationCameraActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
       <LayerApp name="neteaseshortvideo">
@@ -407,8 +491,16 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <AppLayer  name="SurfaceView[com.tencent.qqmusic/com.tencent.qqmusic.videoposter.VideoPosterActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
+      <LayerApp name="linker">
+        <AppLayer  name="SurfaceView[com.oplus.linker/com.oplus.linker.host.container.activity.PluginSingleTopWithCaptureTheme](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
       <LayerApp name="OPGALLERY">
         <AppLayer  name="SurfaceView[com.oneplus.gallery/com.oppo.gallery3d.app.ViewGallery](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="gallery3d">
+        <AppLayer  name="SurfaceView[com.coloros.gallery3d/com.oppo.gallery3d.app.ViewGallery](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
       <LayerApp name="kuaidui">
@@ -433,6 +525,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
       <LayerApp name="snapshot">
         <AppLayer  name="SurfaceView[com.snapchat.android/com.snapchat.android.LandingPageActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
+      </LayerApp>
+
+      <LayerApp name="document">
+        <AppLayer  name="SurfaceView[com.coloros.ocrscanner/com.oplus.scanner.ui.launch.CameraActivity](BLAST)" type="camera" strategy="mode" mode="2" enable="true"/>
       </LayerApp>
 
     </LayerWhiteList>
