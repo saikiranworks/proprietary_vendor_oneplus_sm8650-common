@@ -524,6 +524,7 @@ PRODUCT_PACKAGES += \
     libnsptransaction \
     liboffscreenpoweroptfeature \
     libolc_vnd_vendor \
+    liboplus_spat_audiox \
     libops \
     libos \
     libosensenativeproxy_client_vendor \
@@ -713,6 +714,7 @@ PRODUCT_PACKAGES += \
     libvpp_vqa_networks \
     libworker_pool \
     libasphere \
+    liboplus_spatializer \
     libshoebox \
     vendor.qti.diaghal@1.0_vendor \
     vendor.qti.esepowermanager@1.0 \
