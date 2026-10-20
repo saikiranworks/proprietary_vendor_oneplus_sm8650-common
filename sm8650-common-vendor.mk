@@ -16,6 +16,26 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-touch-V2-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V11-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V11-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MOVIE_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_ANALOG.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MOVIE_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_BLUETOOTH.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MOVIE_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_DIGITAL.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MOVIE_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_GALILEO.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MUSIC_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_ANALOG.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MUSIC_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_BLUETOOTH.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MUSIC_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_DIGITAL.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/HP_MUSIC_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_GALILEO.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl1.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl10.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl10.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl2.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl3.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl4.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl5.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl6.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl6.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl7.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl7.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl8.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl8.bin \
+    vendor/oneplus/sm8650-common/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl9.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl9.bin \
     vendor/oneplus/sm8650-common/proprietary/product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/com.android.hotwordenrollment.common.util.xml \
     vendor/oneplus/sm8650-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/oneplus/sm8650-common/proprietary/system_ext/etc/horae/horae.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/horae/horae.conf \
@@ -717,10 +737,12 @@ PRODUCT_PACKAGES += \
     libdolbyottcameracontrol \
     libolc_vnd \
     liboplus_service \
+    liboplus_spat_audiox \
     libosenseaidlhalclient \
     libosensenativeproxy_client \
     libqcodec2_dolbydecoderfilter \
     libqcodec2_dolbyencoderfilter \
+    liboplus_spatializer \
     com.google.android.widevine.nonupdatable \
     TimeService \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \

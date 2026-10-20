@@ -11423,6 +11423,30 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "liboplus_spat_audiox",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/liboplus_spat_audiox.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libdl",
+                "libm",
+                "liblog",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libosenseaidlhalclient",
     owner: "oneplus",
     strip: {
@@ -11552,6 +11576,35 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liboplus_spatializer",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/soundfx/liboplus_spatializer.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "libc",
+                "libc++",
+                "libstdc++",
+                "libdl",
+                "liblog",
+                "libm",
+                "liboplus_spat_audiox",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "soundfx",
     prefer: true,
     device_specific: true,
 }
