@@ -11375,46 +11375,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "vendor.qti.psiclient@1.0-service",
-    owner: "oneplus",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.qti.psiclient@1.0-service",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libbinder_ndk",
-                "libbase",
-                "libhardware",
-                "libhidlbase",
-                "libpsi",
-                "libpasrutils",
-                "vendor.qti.memory.pasrmanager-V1-ndk",
-                "vendor.qti.memory.pasrmanager@1.0",
-                "vendor.qti.memory.pasrmanager@1.1",
-                "android.hidl.allocator@1.0",
-                "android.hidl.memory@1.0",
-                "libhidlmemory",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
 sh_binary {
     name: "init.crda",
     owner: "oneplus",
