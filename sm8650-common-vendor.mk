@@ -739,7 +739,7 @@ PRODUCT_PACKAGES += \
     adsprpcd \
     audioadsprpcd \
     cdsprpcd \
-    cnss-daemon_oplus \
+    cnss-daemon-oplus \
     diag-router \
     dspservice \
     hdcp1prov \
