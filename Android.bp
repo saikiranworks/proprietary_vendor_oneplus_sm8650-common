@@ -11595,7 +11595,6 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libc",
                 "libc++",
-                "libstdc++",
                 "libdl",
                 "liblog",
                 "libm",
